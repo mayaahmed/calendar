@@ -36,13 +36,17 @@
 
 <div id="container">    
 <div id="calendar">
-<p id="calendar-month-year"></p>
-            <p id="calendar-day"></p>
+ 
+ <div  id="monthYearDiv"> 
+<div class="monthDivElements"> <input type="button" value="&#9664;" onclick="previousMonth()"></div>
+<div id="calendar-month-year" class="monthDivElements"> </div>
+<div class="monthDivElements" > <input type="button" value="&#9654;" onclick="nextMonth()">   </div> 
+  </div>
+            <div id="calendar-day"></div>
             <p id="calendar-date"></p>
-            
-        </div>
-
 </div>
+</div>
+
 <script src="calendar.js"></script>
 </body>
 </html>
