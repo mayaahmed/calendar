@@ -4,27 +4,63 @@ margin-top: 150px;
 margin-left: 10%;
     padding: 10px;
     width: 300px;
-    height: 300px;
+    height: 320px;
     text-align: center;
-    border: 1px solid #eee;
+   // border: 1px solid #eee;
     border-radius: 10px;
     font-size: 22px;
     font-family: Arial;
-    background: khaki;
+   // background: khaki;
+    opacity: 0.8;
+
+color: beige;
 }
 
 #calendar{
     padding: 0;
     margin-bottom: 10px;
+text-align: center;
 }
 
 
 #calendar-month-year{
-    margin: 5px;
+border: 1px solid beige;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+padding: 3px;
+color: khaki;
+
+}
+
+#calendar-day{
+color: khaki;
 }
 
 #calendar-date>table>tr>td{
     padding: 5px;
 }
 
+.monthDivElements{
+float: left;
 
+}
+
+#monthYearDiv{
+margin-left: 20px;
+height: 40px;
+}
+
+input{
+width: 30px;
+padding: 2px;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+opacity: 0.8;
+background: beige;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+input:hover{
+width: 31px;
+opacity: 0.9;
+}

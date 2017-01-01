@@ -9,21 +9,6 @@ body{
     background: black;
 }
 
-
-
-
-#containerDiv{
-margin:0;
-display: flex;
-
-}
-
-#wrapDiv{
-position: relative;
-margin-top: 130px;
-width: 100%;
-}
-
 .logo{
 margin-top: 0px;
 position: absolute;
@@ -50,118 +35,17 @@ position: absolute;
 opacity: 0.8;
 color: khaki;
 font: bold 25px Comic Sans MS;
-margin-left: 10%;
+margin-left: 150px;
 text-shadow: 1px 0px 2px yellow;
 }
 
 .front:hover{
- // transform: rotate(5deg);
-opacity: 1;
+  opacity: 1;
   }
 
-#main_section{
-margin: 30px;
-position: relative;
-border: 1px solid olive;
-display: flex;
-flex-wrap: wrap;
-padding: 20px;
-background: linear-gradient(khaki,white);
- box-shadow: 7px 7px 10px black;
-opacity: 0.8; position: absolute;
-z-index: -1;
-}
-
-
-
-.column{
-float: left;
-text-align: center;
-color: olive;
-padding-right: 50px;
-padding-top: 30px;
-	font: bold 22px Comic Sans MS;
-text-shadow: 1px 1px 2px #000;
-}
 
 
 
 
-.column a{
-text-decoration: none;
-color: olive;
-}
 
 
-.column a:hover{
-font-size: 23px;
- cursor: pointer;
-
-}
-
-
-#missionDiv{
-width: 100%;
-position: relative;
-padding: 10px;
-font-size: 22px;
-color: khaki;
-overflow: hidden;
-z-index: -1;
-opacity: 0.8;
-}
-
-
-
-
-.moreLink{
-color: green;
-font-size: 18px;
-
-text-decoration: none;
-}
-
-.moreLink:hover{
-
-color: orange;
-}
-
-
-
-
-.nav-side{
-position: fixed;
-z-index: 2;
-margin-top: 170px;
-width: 100%;
-height: 700px;
-max-width: 250px;
-background: black;
-box-sizing: border-box;
-padding: 20px;
-color: beige;
-opacity: 0.9;
-transition: left 1s linear 0s;
-}
-
-.nav-toggle{
-position: absolute;
-right: -70px;
-top: 0;
-width: 70px;
-height: 30px;
-// background-color: khaki;
-line-height: 30px;
-text-decoration: none;
-text-align: center;
-border-bottom-right-radius: 3px;
-opacity: 0.8;
-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-color: khaki;
-font-size: 16px;
-}
-
-
-.nav-toggle:hover{
-opacity: 1;
-}
