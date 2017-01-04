@@ -1,5 +1,12 @@
-  var d = new Date();
+
+d = new Date(); 
+
+
+
+
+
 window.onload = function(){
+
   run();
 }
 
@@ -116,3 +123,5 @@ var td = document.createElement('td');
     }
 	return table;
 }
+
+
