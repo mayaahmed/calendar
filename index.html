@@ -35,19 +35,63 @@
 
 
 <div id="container">    
+
 <div id="calendar">
- 
- <div  id="monthYearDiv"> 
-<div class="monthDivElements"> <input type="button" value="&#9664;" onclick="previousMonth()"></div>
-<div id="calendar-month-year" class="monthDivElements"> </div>
-<div class="monthDivElements" > <input type="button" value="&#9654;" onclick="nextMonth()">   </div> 
+  <div  class="monthYearDiv"> 
+    <div class="monthDivElements"> <input type="button" value="&#9664;" onclick="previousMonth()"></div>
+    <div id="calendar-month-year" class="monthDivElements" onClick="displayEntireCalendarDiv()">
+    </div>
+    <div class="monthDivElements" > <input type="button" value="&#9654;" onclick="nextMonth()">   </div> 
   </div>
-            <div id="calendar-day"></div>
-            <p id="calendar-date"></p>
+  <div id="calendar-day"></div>
+  <p id="calendar-date"></p>
 </div>
+
+
+
+<div id="entireCalendar">
+  <div  class="monthYearDiv"> 
+    <div class="monthDivElements"> <input type="button" value="&#9664;" onclick="previousYear()"></div>
+    <div id="calendar-year" class="monthDivElements"  >  </div>
+    <div class="monthDivElements" > <input type="button" value="&#9654;" onclick="nextYear()">   </div> 
+  </div>
+           
+
+
+<div id="entireYearDiv"> 
+
+<table id="entireYearTable" style="width:100%">
+ 
+  <tr>
+    <td class="monthTd" onclick="displayCalendar(0)">Jan</td>
+    <td class="monthTd"  onclick="displayCalendar(1)">Feb </td> 
+     <td class="monthTd" onclick="displayCalendar(2)">Mar</td>
+     <td class="monthTd" onclick="displayCalendar(3)">Apr</td>
+  </tr>  
+
+ <tr>
+     <td class="monthTd" onclick="displayCalendar(4)">May</td>
+     <td class="monthTd" onclick="displayCalendar(5)">Jun</td> 
+     <td class="monthTd" onclick="displayCalendar(6)">Jul</td>
+     <td class="monthTd" onclick="displayCalendar(7)">Aug</td>
+  </tr>
+  
+ <tr>
+     <td class="monthTd" onclick="displayCalendar(8)">Sep</td>
+     <td class="monthTd" onclick="displayCalendar(9)">Oct</td> 
+     <td class="monthTd" onclick="displayCalendar(10)">Nov</td>
+     <td class="monthTd" onclick="displayCalendar(11)">Dec </td>
+</tr>
+
+</table>
+
+
+</div>
+
 </div>
 
 <script src="calendar.js"></script>
+<script src="entireCalendar.js"></script>
 </body>
 </html>
  

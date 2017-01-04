@@ -4,14 +4,13 @@
 }
 
 body{
-	width: 100%;
-	display: flex;
+
     background: black;
 }
 
 .logo{
-margin-top: 0px;
-position: absolute;
+margin-top: 10px;
+position: relative;
 z-index: 3;
 opacity: 0.8;
 margin-left: 1%;

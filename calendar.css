@@ -1,6 +1,6 @@
 
 #container{
-margin-top: 150px;
+margin-top: 20px;
 margin-left: 10%;
     padding: 10px;
     width: 300px;
@@ -17,6 +17,7 @@ color: beige;
 }
 
 #calendar{
+position: absolute;
     padding: 0;
     margin-bottom: 10px;
 text-align: center;
@@ -32,6 +33,7 @@ color: khaki;
 
 }
 
+
 #calendar-day{
 color: khaki;
 }
@@ -45,7 +47,7 @@ float: left;
 
 }
 
-#monthYearDiv{
+.monthYearDiv{
 margin-left: 20px;
 height: 40px;
 }
@@ -63,4 +65,28 @@ margin-right: 5px;
 input:hover{
 width: 31px;
 opacity: 0.9;
+}
+
+#entireYearDiv{
+border: 1px solid beige;
+color: beige;
+}
+
+#calendar-year{
+width: 150px;
+border: 1px solid beige;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+padding: 3px;
+color: khaki;
+
+}
+
+.monthTd:hover{
+color: khaki;
+}
+
+#entireYearTable{
+padding: 10px;
+border-spacing: 20px;
 }
